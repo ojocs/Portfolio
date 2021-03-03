@@ -37,6 +37,11 @@ h3, h4 {
     text-align: left;
 }
 
+h5 {
+    color: darkblue;
+    text-align: center;
+}
+
 p {
     color: blue;
     text-align: center;
