@@ -33,7 +33,7 @@ h2 {
     text-decoration-skip: spaces;
 }
 
-h3 {
+h3, h4 {
     text-align: left;
 }
 
