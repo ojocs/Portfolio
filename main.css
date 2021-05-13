@@ -34,15 +34,14 @@ h2 {
 }
 
 h3, h4 {
-    text-align: center;
-    display:inline-flex;
+    text-align: left;
+    display:flex;
     padding-top: 1em;
 }
 
 h5 {
     color: darkblue;
-    text-align: left;
-    padding-bottom: 1em;
+    text-align: center;
 }
 
 p {
