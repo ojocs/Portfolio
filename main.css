@@ -71,18 +71,23 @@ li {
     text-align: justify;
 }
 
-/* samp {
+samp {
     display: none;
 }
 
 img {
-    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    animation: colorize 3s cubic-bezier(0, 0, .78, .36) 1;
     background: transparent;
     border: 10px solid rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     display: block;
     margin: 1.3em auto;
-    max-width: 95%;
+    max-width: 70%;
+}
+
+.img2 {
+    max-width: 20%;
+    max-height: 10%;
 }
 
 @keyframes colorize {
@@ -94,7 +99,7 @@ img {
         -webkit-filter: grayscale(0%);
         filter: grayscale(0%);
     }
-} */
+}
 
 .container{
     height:100%;
