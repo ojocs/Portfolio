@@ -8,6 +8,7 @@
         <meta name="description" content="My portfolio | Mi portfolio">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="main.css">
+        <script src="script.js"></script>
         <title>Osvaldo Jimenez - Portfolio</title>
     </head>
     <body>
@@ -34,57 +35,58 @@
             <p>________________________________________</p>
             
             <h2>Works | Trabajos</h2>
-            <ul>
+            <nav>
+
+                <p>Click on each to learn more!</p>
             
-                <h4>
-                    <h3>Aire</h3>
+                <ul><input type="button" value="Aire" onclick="show(this, 'aire')" class="showClass" /></ul>
+                <div class="myWork" id="aire">
                     <h4>Play as a dragon in a 3d environment!</h4>
                     <h5><img src="Images/aire_Title.png" class="img"></h5>
                     <h5><a href="https://lajas.itch.io/aire">Itch.io page</a>--<a href="https://youtu.be/3BBDMMhJJxE">Aire video demo</a>--<a href="https://drive.google.com/drive/folders/1Alqo_FqEXimQpQHkFgzV-wuLTrfRQ0Wb?usp=sharing">Aire Music Folder</a></h5>
                     <h5>Worked on audio, design, programming, and more. UE4, C++ Blueprints, Garageband, Gitlab</h5>
                     
-                </h4>
-                
-                <h4>
-                    <h3>Mrs. Fantastic’s Freaky Figurine Shop</h3>
+                </div>
+
+                <ul><input type="button" value="Mrs. Fantastic’s Freaky Figurine Shop" onclick="show(this, 'freaky')" class="showClass" /></ul>
+                <div class="myWork" id="freaky">
                     <h4>3 children turned into toys by an evil witch are trapped in a toy store. Solve the puzzles and escape!</h4>
                     <h5><img src="Images/Sign-MrsFantasticFreakyFigurineShop.png" class="img"></h5>
                     <h5><a href="https://juliand547.itch.io/mrs-fantastics-freaky-figurine-shop">Itch.io page</a>--<a href="https://drive.google.com/drive/folders/1r_hOlDuwtHHhF4z-58wI0KaGxicCFWAc?usp=sharing">Audio</a></h5>
                     <h5>Worked on audio and programming, helped with design among other things. Unity, C#, Audacity, Garageband, Github</h5>
-                </h4>
+                </div>
                 
-                <h4>
-                    <h3>Silver Knight</h3>
+                <ul><input type="button" value="Silver Knight" onclick="show(this, 'silver')" class="showClass" /></ul>
+                <div class="myWork" id="silver">
                     <h4>Use your teleporting powers to defeat the evil monsters in this hack-and-slash adventure!</h4>
                     <h5><img src="Images/silverKnight-Intro.png" class="img"></h5>
                     <h5><a href="https://ojocs.github.io/Silver-Knight-Game/">https://ojocs.github.io/Silver-Knight-Game/</a></h5>
                     <h5>Worked on programming for characters. Phaser.io, Javascript, HTML/CSS, Github</h5>
-                </h4>
+                </div>
             
-                <h4>
-                    <h3>BieneStar</h3>
+                <ul><input type="button" value="BieneStar" onclick="show(this, 'bieneStar')" class="showClass" /></ul>
+                <div class="myWork" id="bieneStar">
                     <h4>An app designed with your well-being in mind. Complete daily tasks, interact with other users, and relax.</h4>
                     <h5><img src="Images/bieneStar.png" class="img2"></h5>
                     <h5><a href="https://gitlab.com/JordanHilder9/cs371l-ios-group-proj">Gitlab link (request access if needed)</a></h5>
                     <h5>Worked on "share a feeling" feature, general programming and audio. Swift iOS, Gitlab, Garageband</h5>
-                </h4>
+                </div>
                 
-                <h4>
-                    <h3>Flight or Fight</h3>
+                <ul><input type="button" value="Flight or Fight" onclick="show(this, 'flightFight')" class="showClass" /></ul>
+                <div class="myWork" id="flightFight">
                     <h4>Destroy the incoming blocks as a laser-powered triangle in this asteroids inspired game!</h4>
                     <h5><img src="Images/fightOrFlight.png" class="img"></h5>
                     <h5><a href="https://scratch.mit.edu/projects/98059678">https://scratch.mit.edu/projects/98059678</a></h5>
                     <h5>Worked on programming, art, and more. MIT's Scratch</h5>
-                </h4>
+                </div>
                 
-                
-                <h4>
-                    <h3>Zanzibar</h3>
+                <ul><input type="button" value="Zanzibar" onclick="show(this, 'zanzibar')" class="showClass" /></ul>
+                <div class="myWork" id="zanzibar">
                     <h4>Can you save the valley from the monsters that roam within it? Gain power from your defeated foes and slay the dragon in the castle in this 3d adventure!</h4>
                     <h5><img src="Images/zanzibar_Title.png" class="img"></h5>
                     <h5><a href="https://lajas.itch.io/zanzibar">Itch.io page</a></h5>
                     <h5>Worked on design, stats and combat system, weapons and player character. UE4, C++, Blueprints, Mixamo (Adobe), Gitlab</h5>
-                </h4>
+                </div>
                     
                 <h4>
                     <h3>Some music works:</h3>
@@ -97,7 +99,7 @@
                     <h5><a href="Misc/Game Narrative Review - Star Wars Battlefront II by Osvaldo Jimenez.pdf">SW-BF2 -- Game Narrative Review</a></h5>
                 </h4>
             
-            </ul>
+            </nav>
             
             <p>________________________________________</p>
 
