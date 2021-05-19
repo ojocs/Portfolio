@@ -81,7 +81,7 @@ p3 {
 
 .showClass {
     animation: colorize 1s cubic-bezier(0, 0, .78, .36) 1;
-    color: #000000;
+    color:blue;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 27px;
     margin: 2% 1%;
@@ -151,8 +151,8 @@ img {
 }
 
 .myWork {
-    /* opacity: 0; */
     text-align: center;
+    display: none;
 }
 
 .worksList {
