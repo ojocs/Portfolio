@@ -16,7 +16,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
     line-height: 1.5;
-    margin: 0 auto;
+    margin: 2% 1%;
     /* max-width: 800px; */
     padding: 2em 2em 2em, 1em;
 }
@@ -33,9 +33,12 @@ h2 {
     text-decoration-skip: spaces;
 }
 
-h3, h4 {
-    text-align: left;
-    display:flex;
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
     padding-top: 1em;
 }
 
@@ -61,6 +64,7 @@ p3 {
 
 ul {
     color:black;
+    text-align: center;
 }
 
 b, strong {
