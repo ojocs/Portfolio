@@ -23,3 +23,8 @@ function show (element, id) {
         element.style.color = 'blue';
     }
 }
+
+function sizeUp(element){
+    element.style.display = 5;
+    element.style.color = 'red';
+}

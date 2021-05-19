@@ -54,6 +54,10 @@ h5 {
     text-size-adjust: auto;
 }
 
+h5 a:hover{
+    font-size: 120%;
+}
+
 p {
     color: blue;
     text-align: center;
@@ -86,6 +90,10 @@ p3 {
 ul {
     color:black;
     text-align: center;
+}
+
+ul p2:hover{
+    font-size: 120%;
 }
 
 b, strong {
