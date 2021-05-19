@@ -63,6 +63,10 @@ p {
     text-align: center;
 }
 
+p a:hover{
+    font-size: 120%;
+}
+
 p2 {
     color: black;
     text-align: center;
