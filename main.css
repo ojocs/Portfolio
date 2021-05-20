@@ -18,7 +18,6 @@ body {
     font-size: 20px;
     line-height: 1.5;
     margin: 1% 1%;
-    /* max-width: 800px; */
     padding: 2em 2em 2em, 1em;
     align-content: center;
     text-align: justify;
@@ -31,6 +30,7 @@ h1, h2, h3, .showClass {
     line-height: 1.3;
     text-align: center;
     align-content: center;
+    font-family: sans-serif;
 }
 
 h1 {
@@ -41,7 +41,33 @@ h2 {
     margin-top: 1.3em;
     text-decoration-skip: spaces;
     align-content: center;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    line-height: 0.95;
 }
+  
+/* Older browsers */
+h2 {
+    letter-spacing: 1px;
+    line-height: 0.95;
+}
+  
+/* If browser supports font-size-adjust, use this */
+@supports (font-size-adjust: none) {
+h2 {
+    letter-spacing: 0;
+    line-height: 1;
+    font-size-adjust: 0.59;
+    }
+}
+  
+/* Once the web font has loaded, apply this */
+.webfont-loaded h2 {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0;
+    line-height: 1;
+}
+    
 
 h3 {
     text-align: center;
@@ -184,4 +210,12 @@ img {
 
 h2 input:hover{
     font-size: 120%;
+}
+
+@supports (text-shadow: none) {
+  h2 input:hover,
+  h2 input:focus {
+    font-weight: normal;
+    text-shadow: 1px 0 0 currentColor;
+  }
 }
