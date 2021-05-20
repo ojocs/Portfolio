@@ -219,3 +219,7 @@ h2 input:hover{
     text-shadow: 1px 0 0 currentColor;
   }
 }
+
+p2 a:hover {
+    font-size: 120%;
+}
