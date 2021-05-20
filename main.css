@@ -91,6 +91,10 @@ p3 {
     border: 0;
 }
 
+ul input:hover{
+    font-size: 200%;
+}
+
 ul {
     color:black;
     text-align: center;
