@@ -7,6 +7,7 @@ html {
     background-image: linear-gradient(270deg, rgb(75, 99, 99) 0%, rgb(216, 221, 221) 100%);
     -webkit-font-smoothing: antialiased;
     scroll-behavior: smooth;
+    align-content: center;
 }
 
 body {
@@ -16,9 +17,16 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
     line-height: 1.5;
-    margin: 2% 1%;
+    margin: 1% 1%;
     /* max-width: 800px; */
     padding: 2em 2em 2em, 1em;
+    align-content: center;
+    text-align: justify;
+    text-justify: auto;
+}
+
+title {
+    padding-top: 50%;
 }
 
 h1, h2, h3, .showClass {
@@ -26,11 +34,17 @@ h1, h2, h3, .showClass {
     font-weight: 600;
     line-height: 1.3;
     text-align: center;
+    align-content: center;
+}
+
+h1 {
+    padding-top: 5%;
 }
 
 h2 {
     margin-top: 1.3em;
     text-decoration-skip: spaces;
+    align-content: center;
 }
 
 h3 {
@@ -59,6 +73,7 @@ h5 a:hover{
 }
 
 p {
+    align-content: center;
     color: blue;
     text-align: center;
 }
@@ -89,6 +104,7 @@ p3 {
     padding: 2em 2em 2em, 3em;
     background-color: transparent;
     border: 0;
+    align-content: center;
 }
 
 ul input:hover{
@@ -151,30 +167,57 @@ img {
     background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(128, 243, 243) 100%);
     background-position: center;
     background-size: cover;
-    position: relative;
+    position:static;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    display:flow-root;
+    justify-content: center;
+}
+
+.container p {
+    align-content: center;
+    text-align: center;
 }
 
 .myWork {
-    text-align: center;
+    align-content: center;
+    text-align: justify;
+    text-justify: auto;
     display: none;
 }
 
 .worksList {
+    flex: 100;
+    padding: 20px;
+    align-content: center;
+    text-align: justify;
     text-justify: auto;
+    justify-self: center;
 }
 
-nav {
-    flex: 1;
-    padding: 60px;
+.worksList h2 {
+    align-content: center;
+    text-align: center;
 }
 
-nav h4 h3 {
+.worksList p {
+    align-content: center;
+    text-align: center;
+}
+
+.worksList h4 h3 {
     text-decoration: none;
-    display: inline-block;
-    list-style: none;
+    display: flex;
+    list-style:square;
 }
 
-nav .showClass {
-    display: inline-block;
+.worksList button {
+    display:contents;
     align-items: center;
+    text-align: center;
+}
+
+h2 input:hover{
+    font-size: 120%;
 }
