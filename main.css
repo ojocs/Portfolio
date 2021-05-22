@@ -92,10 +92,6 @@ h5 {
     /* text-size-adjust: auto; */
 }
 
-h5 a:hover{
-    letter-spacing: 2px;
-}
-
 p, p2, p3 {
     text-decoration: none;
 }
@@ -104,10 +100,6 @@ p {
     align-content: center;
     color: blue;
     text-align: center;
-}
-
-p a:hover{
-    letter-spacing: 2px;
 }
 
 p2 {
@@ -138,10 +130,6 @@ ul {
     color:black;
     text-align: center;
     text-decoration: none;
-}
-
-ul input:hover, ul p2 a:hover{
-    letter-spacing: 2px;
 }
 
 b, strong {
@@ -211,9 +199,16 @@ img {
     display: none;
 }
 
-h2 input:hover{
+/* hovers */
+
+h2 input:hover, h5 a:hover, p a:hover, p2 a:hover {
     text-decoration: underline;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+}
+
+ul input:hover, ul p2 a:hover{
+    text-decoration: underline;
+    letter-spacing: 2px;
 }
 
 @supports (text-shadow: none) {
@@ -222,9 +217,4 @@ h2 input:hover{
     font-weight: normal;
     text-shadow: 1px 0 0 currentColor;
   }
-}
-
-p2 a:hover {
-    text-decoration: springgreen;
-    letter-spacing: 2px;
 }
