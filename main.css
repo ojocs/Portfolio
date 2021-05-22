@@ -89,13 +89,11 @@ h4 {
 h5 {
     color: darkblue;
     text-align: center;
-    text-size-adjust: auto;
+    /* text-size-adjust: auto; */
 }
 
 h5 a:hover{
-    /* font-size: 120%; */
-    text-decoration:wavy;
-    color: 'red';
+    letter-spacing: 2px;
 }
 
 p, p2, p3 {
@@ -109,8 +107,7 @@ p {
 }
 
 p a:hover{
-    /* font-size: 120%; */
-    color: 'red';
+    letter-spacing: 2px;
 }
 
 p2 {
@@ -137,20 +134,14 @@ p3 {
     font-weight: 600;
 }
 
-ul input:hover{
-    /* font-size: 200%; */
-    color: springgreen;
-}
-
 ul {
     color:black;
     text-align: center;
     text-decoration: none;
 }
 
-ul p2 a:hover{
-    /* font-size: 120%; */
-    color: 'red';
+ul input:hover, ul p2 a:hover{
+    letter-spacing: 2px;
 }
 
 b, strong {
@@ -221,7 +212,6 @@ img {
 }
 
 h2 input:hover{
-    /* font-size: 120%; */
     text-decoration: underline;
     letter-spacing: 1px;
 }
@@ -235,6 +225,6 @@ h2 input:hover{
 }
 
 p2 a:hover {
-    /* font-size: 120%; */
     text-decoration: springgreen;
+    letter-spacing: 2px;
 }
