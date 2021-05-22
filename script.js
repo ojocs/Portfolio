@@ -13,7 +13,7 @@
 //     // }
 // }
 
-function show (element, id) {
+function show (element, id, imgType, imageURL) {
     var workContent = document.getElementById(id);
 
     if(workContent.style.display !== "block"){

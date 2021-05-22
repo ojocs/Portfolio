@@ -118,13 +118,60 @@ p3 {
     animation: colorize 1s cubic-bezier(0, 0, .78, .36) 1;
     color:blue;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 27px;
-    padding: 2em 2em 2em, 3em;
-    background-color: transparent;
+    font-size: 50px;
+    /* padding: 2em 2em 2em, 3em; */
+    /* background-color: transparent; */
     border: 0;
     align-content: center;
-    font-weight: 600;
+    font-weight: auto;
+    /* grid stuff */
+    display: grid;
+    grid-area: span;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background: transparent;
+    background-size: cover;
 }
+
+/* grid stuff */
+
+#aireButton {
+    background-image: url('Images/aire_Jump.png');
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+#freakyButton {
+    background-image: url('Images/Sign-MrsFantasticFreakyFigurineShop.png');
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+}
+#silverButton {
+    background-image: url('Images/silverKnight-Intro.png');
+    grid-column: 1;
+    grid-row: 2 / 5;
+}
+#bieneButton {
+    background-image: img url('Images/bieneStar.png');
+    grid-column: 3;
+    grid-row: 3;
+}
+#flightButton {
+    background-image: url('Images/fightOrFlight.png');
+    grid-column: 2;
+    grid-row: 4;
+}
+#zanzibarButton {
+    background-image: url('Images/zanzibar_Title.png');
+    grid-column: 3;
+    grid-row: 4;
+}
+
+#musicButton {
+    background: transparent;
+}
+
+/* grid stuff end */
 
 ul {
     color:black;
@@ -183,7 +230,7 @@ img {
     align-content: center;
     text-align: center;
     margin: auto;
-    display:flow-root;
+    display: grid;
     justify-content: center;
 }
 
@@ -198,6 +245,22 @@ img {
     text-justify: auto;
     display: none;
 }
+
+/* (B) 1 COL ON SMALL SCREENS */
+@media screen and (max-width:768px) {
+    .showClass { grid-template-columns: auto; }
+  }
+  /* (C) OPTIONAL FOR THE CELLS */
+  .showClass, .myWork { padding: 10px; }
+  /* .myWork {
+    font-weight: bold;
+    border: 1px solid #f18e8e;
+    background: #ffbfbf;
+  } */
+  /* .showClass {
+    border: 1px solid #c2ba3c;
+    background: #f8ffde;
+  } */
 
 /* hovers */
 
@@ -217,4 +280,9 @@ ul input:hover, ul p2 a:hover{
     font-weight: normal;
     text-shadow: 1px 0 0 currentColor;
   }
+}
+
+img:hover {
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
 }
