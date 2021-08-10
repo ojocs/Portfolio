@@ -1,122 +1,160 @@
 <!DOCTYPE html>
 <html>
-    
-    <head>
-        <meta charset="utf-8">
-<!--        <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
-        <title>Portfolio</title>
-        <meta name="description" content="My portfolio | Mi portfolio">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="main.css">
-        <script src="script.js"></script>
-        <title>Osvaldo Jimenez - Portfolio</title>
-    </head>
-    <body id="body">
 
-        <div class="container">
+<head>
+    <meta charset="utf-8">
+    <!--        <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <title>Portfolio</title>
+    <meta name="description" content="My portfolio | Mi portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
+    <title>Osvaldo Jimenez - Portfolio</title>
+</head>
 
-            <h1>Osvaldo Jimenez: Portfolio</h1>
-        
-            <h2>Contact | Contacto</h2>
-            <p> <a href="mailto:ochoa@utexas.edu?">ochoa@utexas.edu</a></p>
-            <p>________________________________________</p>
-            <h2>Experience | Experiencia</h2>
-            <h3>Software Engineer Intern at EA: Industrial Toys Studio</h3>
-            <ul>
-                <h4>Developed a stats system in UE4's C++ class, GameInstanceSubsystem</h4>
-                <p2>Designed the system off preexisting code from other teammates</p2>
-                <p2>Improved said code while keeping functionality across everything</p2>
-                <p2>Made stats system to be generic and easy to use, and easily modifiable in current or future projects</p2>
-                <p2>Wrote a technical design document for planning out the implementation process</p2>
-                <h4>Created a powerup in Blueprints for a current project of the studio</h4>
-                <p2>A drone that reacted to other actors in the game world, spawned by player input and with a lifetime</p2>
-                <h5>UE4,  C++, Blueprints, Perforce, Jira, Scrum/Agile methodology</h5>
-            </ul>
-            
-            <p>________________________________________</p>
-                
-            <h2>Works | Trabajos</h2>
-            <p>Click on each to learn more!</p>
+<body id="body">
 
-            <h2><input type="button" value="Aire" id="aireButton" onclick="show(this, 'aire')" class="showClass"/></h2>
-            <div class="myWork" id="aire">
-                <h4>Play as a dragon in a 3d environment!</h4>
-                <!-- <h5><img src="Images/aire_Title.png" class="img"></h5> -->
-                <h5><a href="https://lajas.itch.io/aire">Itch.io page</a> | <a href="https://youtu.be/3BBDMMhJJxE">Aire video demo</a> | <a href="https://drive.google.com/drive/folders/1Alqo_FqEXimQpQHkFgzV-wuLTrfRQ0Wb?usp=sharing">Aire Music Folder</a></h5>
-                <h5>Worked on audio, design, programming, and more. UE4, C++ Blueprints, Garageband, Gitlab</h5>
-                
-            </div>
+    <div class="container">
 
-            <h2><input type="button" value="Mrs. Fantastic’s Freaky Figurine Shop" id="freakyButton" onclick="show(this, 'freaky')" class="showClass" /></h2>
-            <div class="myWork" id="freaky">
-                <h4>3 children turned into toys by an evil witch are trapped in a toy store. Solve the puzzles and escape!</h4>
-                <h5><img src="Images/Sign-MrsFantasticFreakyFigurineShop.png" class="img"></h5>
-                <h5><a href="https://juliand547.itch.io/mrs-fantastics-freaky-figurine-shop">Itch.io page</a> | <a href="https://drive.google.com/drive/folders/1r_hOlDuwtHHhF4z-58wI0KaGxicCFWAc?usp=sharing">Audio</a></h5>
-                <h5>Worked on audio and programming, helped with design among other things. Unity, C#, Audacity, Garageband, Github</h5>
-            </div>
-            
-            <h2><input type="button" value="Silver Knight" id="silverButton" onclick="show(this, 'silver')" class="showClass" /><h2>
-            <div class="myWork" id="silver">
-                <h4>Use your teleporting powers to defeat the evil monsters in this hack-and-slash adventure!</h4>
-                <h5><img src="Images/silverKnight-Intro.png" class="img"></h5>
-                <h5><a href="https://lajas.itch.io/silver-knight">Itch.io page</a> | <a href="https://ojocs.github.io/Silver-Knight-Game/">Game</a></h5>
-                <h5>Worked on programming for characters. Phaser.io, Javascript, HTML/CSS, Github</h5>
-            </div>
-        
-            <h2><input type="button" value="BieneStar" id="bieneButton" onclick="show(this, 'bieneStar')" class="showClass" /></h2>
-            <div class="myWork" id="bieneStar">
-                <h4>An app designed with your well-being in mind. Complete daily tasks, interact with other users, and relax.</h4>
-                <h5><img src="Images/bieneStar.png" class="img2"></h5>
-                <h5><a href="https://gitlab.com/JordanHilder9/cs371l-ios-group-proj">Gitlab link (request access if needed)</a></h5>
-                <h5>Worked on "share a feeling" feature, general programming and audio. Swift iOS, Gitlab, Garageband</h5>
-            </div>
-            
-            <h2><input type="button" value="Flight or Fight" id="flightButton" onclick="show(this, 'flightFight')" class="showClass" /></h2>
-            <div class="myWork" id="flightFight">
-                <h4>Destroy the incoming blocks as a laser-powered triangle in this asteroids inspired game!</h4>
-                <h5><img src="Images/fightOrFlight.png" class="img"></h5>
-                <h5><a href="https://scratch.mit.edu/projects/98059678">Game link</a></h5>
-                <h5>Worked on programming, art, and more. MIT's Scratch</h5>
-            </div>
-            
-            <h2><input type="button" value="Zanzibar" id="zanzibarButton" onclick="show(this, 'zanzibar')" class="showClass" /></h2>
-            <div class="myWork" id="zanzibar">
-                <h4>Can you save the valley from the monsters that roam within it? Gain power from your defeated foes and slay the dragon in the castle in this 3d adventure!</h4>
-                <h5><img src="Images/zanzibar_Title.png" class="img"></h5>
-                <h5><a href="https://lajas.itch.io/zanzibar">Itch.io page</a></h5>
-                <h5>Worked on design, stats and combat system, weapons and player character. UE4, C++, Blueprints, Mixamo (Adobe), Gitlab</h5>
-            </div>
-            
-            <h2><input type="button" value="Some music works:" id="musicButton" onclick="show(this, 'music')" class="showClass" /></h2>
-            <div class="myWork" id="music">
-                <h5><a href="https://drive.google.com/drive/folders/1SUu4_v7kvVvl8ERQg_FofMdS0pqriHjE?usp=sharing">Drive with AET 305 works</a></h5>
-                <h5>LogicProX</h5>
-            </div>
-        
-            <h2><input type="button" value="Narrative essay/analysis on Star Wars Battlefront II (2005):" id="narrativeButton" onclick="show(this, 'narrative')" class="showClass" /></h2>
-            <div class="myWork" id="narrative">
-                <h5><a href="Misc/Game Narrative Review - Star Wars Battlefront II by Osvaldo Jimenez.pdf">SW-BF2 -- Game Narrative Review</a></h5>
-            </div>
-            
-            <p>________________________________________</p>
+        <h1>Osvaldo Jimenez: Portfolio</h1>
 
-            <h2>Sites | Sitios</h2>
+        <h2>Contact | Contacto</h2>
+        <p> <a href="mailto:ochoa@utexas.edu?">ochoa@utexas.edu</a></p>
+        <p>________________________________________</p>
+        <h2>Experience | Experiencia</h2>
+        <h3>Software Engineer Intern at EA: Industrial Toys Studio</h3>
+        <ul>
+            <h4>Developed a stats system in UE4's C++ class, GameInstanceSubsystem</h4>
+            <p2>Designed the system off preexisting code from other teammates</p2>
+            <p2>Improved said code while keeping functionality across everything</p2>
+            <p2>Made stats system to be generic and easy to use, and easily modifiable in current or future projects
+            </p2>
+            <p2>Wrote a technical design document for planning out the implementation process</p2>
+            <h4>Created a powerup in Blueprints for a current project of the studio</h4>
+            <p2>A drone that reacted to other actors in the game world, spawned by player input and with a lifetime</p2>
+            <h5>UE4, C++, Blueprints, Perforce, Jira, Scrum/Agile methodology</h5>
+        </ul>
+
+        <p>________________________________________</p>
+
+        <h2>Works | Trabajos</h2>
+        <p>Click on each to learn more!</p>
+
+        <h2><input type="button" value="Aire" id="aireButton" onclick="show(this, 'aire')" class="showClass" /></h2>
+        <div class="myWork" id="aire">
+            <h4>Play as a dragon in a 3d environment!</h4>
+            <!-- <h5><img src="Images/aire_Title.png" class="img"></h5> -->
+            <h5><a href="https://lajas.itch.io/aire">Itch.io page</a> | <a href="https://youtu.be/3BBDMMhJJxE">Aire
+                    video demo</a> | <a
+                    href="https://drive.google.com/drive/folders/1Alqo_FqEXimQpQHkFgzV-wuLTrfRQ0Wb?usp=sharing">Aire
+                    Music Folder</a></h5>
+            <h5>Worked on audio, design, programming, and more. UE4, C++ Blueprints, Garageband, Gitlab</h5>
+
+        </div>
+
+        <h2><input type="button" value="Mrs. Fantastic’s Freaky Figurine Shop" id="freakyButton"
+                onclick="show(this, 'freaky')" class="showClass" /></h2>
+        <div class="myWork" id="freaky">
+            <h4>3 children turned into toys by an evil witch are trapped in a toy store. Solve the puzzles and escape!
+            </h4>
+            <h5><img src="Images/Sign-MrsFantasticFreakyFigurineShop.png" class="img"></h5>
+            <h5><a href="https://juliand547.itch.io/mrs-fantastics-freaky-figurine-shop">Itch.io page</a> | <a
+                    href="https://drive.google.com/drive/folders/1r_hOlDuwtHHhF4z-58wI0KaGxicCFWAc?usp=sharing">Audio</a>
+            </h5>
+            <h5>Worked on audio and programming, helped with design among other things. Unity, C#, Audacity, Garageband,
+                Github</h5>
+        </div>
+
+        <h2><input type="button" value="Silver Knight" id="silverButton" onclick="show(this, 'silver')"
+                class="showClass" />
+            <h2>
+                <div class="myWork" id="silver">
+                    <h4>Use your teleporting powers to defeat the evil monsters in this hack-and-slash adventure!</h4>
+                    <h5><img src="Images/silverKnight-Intro.png" class="img"></h5>
+                    <h5><a href="https://lajas.itch.io/silver-knight">Itch.io page</a> | <a
+                            href="https://ojocs.github.io/Silver-Knight-Game/">Game</a></h5>
+                    <h5>Worked on programming for characters. Phaser.io, Javascript, HTML/CSS, Github</h5>
+                </div>
+
+                <h2><input type="button" value="BieneStar" id="bieneButton" onclick="show(this, 'bieneStar')"
+                        class="showClass" /></h2>
+                <div class="myWork" id="bieneStar">
+                    <h4>An app designed with your well-being in mind. Complete daily tasks, interact with other users,
+                        and relax.</h4>
+                    <h5><img src="Images/bieneStar.png" class="img2"></h5>
+                    <h5><a href="https://gitlab.com/JordanHilder9/cs371l-ios-group-proj">Gitlab link (request access if
+                            needed)</a></h5>
+                    <h5>Worked on "share a feeling" feature, general programming and audio. Swift iOS, Gitlab,
+                        Garageband</h5>
+                </div>
+
+                <h2><input type="button" value="Flight or Fight" id="flightButton" onclick="show(this, 'flightFight')"
+                        class="showClass" /></h2>
+                <div class="myWork" id="flightFight">
+                    <h4>Destroy the incoming blocks as a laser-powered triangle in this asteroids inspired game!</h4>
+                    <h5><img src="Images/fightOrFlight.png" class="img"></h5>
+                    <h5><a href="https://scratch.mit.edu/projects/98059678">Game link</a></h5>
+                    <h5>Worked on programming, art, and more. MIT's Scratch</h5>
+                </div>
+
+                <h2><input type="button" value="Zanzibar" id="zanzibarButton" onclick="show(this, 'zanzibar')"
+                        class="showClass" /></h2>
+                <div class="myWork" id="zanzibar">
+                    <h4>Can you save the valley from the monsters that roam within it? Gain power from your defeated
+                        foes and slay the dragon in the castle in this 3d adventure!</h4>
+                    <h5><img src="Images/zanzibar_Title.png" class="img"></h5>
+                    <h5><a href="https://lajas.itch.io/zanzibar">Itch.io page</a></h5>
+                    <h5>Worked on design, stats and combat system, weapons and player character. UE4, C++, Blueprints,
+                        Mixamo (Adobe), Gitlab</h5>
+                </div>
+
+                <h2><input type="button" value="Some music works:" id="musicButton" onclick="show(this, 'music')"
+                        class="showClass" /></h2>
+                <div class="myWork" id="music">
+                    <h5><a href="https://drive.google.com/drive/folders/1SUu4_v7kvVvl8ERQg_FofMdS0pqriHjE?usp=sharing">Drive
+                            with AET 305 works</a></h5>
+                    <h5>LogicProX</h5>
+                </div>
+
+                <h2><input type="button" value="Narrative essay/analysis on Star Wars Battlefront II (2005):"
+                        id="narrativeButton" onclick="show(this, 'narrative')" class="showClass" /></h2>
+                <div class="myWork" id="narrative">
+                    <h5><a href="Misc/Game Narrative Review - Star Wars Battlefront II by Osvaldo Jimenez.pdf">SW-BF2 --
+                            Game Narrative Review</a></h5>
+                </div>
+
+                <p>________________________________________</p>
+
+                <h2>Sites | Sitios</h2>
                 <p2>Itch.io: <a href="https://lajas.itch.io/">https://lajas.itch.io/</a></p2>
                 <p2>Github: <a href="https://github.com/ojocs">https://github.com/ojocs</a></p2>
                 <p2>Gitlab: <a href="https://gitlab.com/osvcs">https://gitlab.com/osvcs</a></p2>
-                <p2>LinkedIn: <a href="https://www.linkedin.com/in/osvaldo-jo/">https://www.linkedin.com/in/osvaldo-jo/</a></p2>
-            
-            <p>________________________________________</p>
+                <p2>LinkedIn: <a
+                        href="https://www.linkedin.com/in/osvaldo-jo/">https://www.linkedin.com/in/osvaldo-jo/</a></p2>
 
-            <h2>Resume | Curriculum</h2>
+                <p>________________________________________</p>
+
+                <h2>Resume | Curriculum</h2>
                 <p2><a href="Resumes/Resume - May2021.pdf">May 2021 Resume</a></p2>
                 <p2><a href="Resumes/Resume-April2021.pdf">April 2021 Resume</a></p2>
                 <p2><a href="Resumes\Resume-Feb2021.pdf">Feb 2021 Resume</a></p2>
                 <p2><a href="Resumes/Jimenez_Osvaldo.resume.pdf"> Oct 2020 Resume</a></p2>
                 <p2><a href="Resumes/Resume%20--%20Current%20Sept%202020.pdf">Sept 2020 Resume</a></p2>
-                <p2><a href="Resumes/Resume%20--%20as%20of%202-21-2019%20-%20Osvaldo%20Jimenez.pdf">Feb 2019 Resume</a></p2>
-                <p2><a href="Resumes/Resume%20--%20as%20of%2011_21_2018%20-%20Osvaldo%20Jimenez.docx">Oct 2018 Resume</a></p2>
-            <p>________________________________________</p>
-            <p></p>
-        </div>
-    </body>
+                <p2><a href="Resumes/Resume%20--%20as%20of%202-21-2019%20-%20Osvaldo%20Jimenez.pdf">Feb 2019 Resume</a>
+                </p2>
+                <p2><a href="Resumes/Resume%20--%20as%20of%2011_21_2018%20-%20Osvaldo%20Jimenez.docx">Oct 2018
+                        Resume</a></p2>
+                <p>________________________________________</p>
+                <p></p>
+
+                <a class="twitter-hashtag-timeline" href="https://twitter.com/search?q=%23Olympics">Olympics</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a href="https://twitter.com/intent/tweet?button_hashtag=LoveTwitter&ref_src=twsrc%5Etfw"
+                    class="twitter-hashtag-button" data-show-count="false">Tweet #LoveTwitter</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a class="twitter-timeline"
+                    href="https://twitter.com/TwitterDev/lists/national-parks?ref_src=twsrc%5Etfw">A Twitter List by
+                    TwitterDev</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</body>
