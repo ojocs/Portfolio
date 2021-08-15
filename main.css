@@ -159,6 +159,13 @@ img {
     max-height: 10%;
 }
 
+.sitesImg {
+    background-repeat: no-repeat;
+    max-width: 10%;
+    max-height: 10%;
+    padding: 1%;
+}
+
 @keyframes colorize {
     0% {
         -webkit-filter: grayscale(100%);
