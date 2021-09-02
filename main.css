@@ -225,3 +225,7 @@ ul input:hover, ul p2 a:hover{
     text-shadow: 1px 0 0 currentColor;
   }
 }
+
+.sitesImg input:hover {
+    size: 100%;
+}
