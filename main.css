@@ -90,7 +90,7 @@ h4 {
 h5 {
     color: darkblue;
     text-align: center;
-    /* text-size-adjust: auto; */
+    text-size-adjust: auto;
 }
 
 p, p2, p3 {
