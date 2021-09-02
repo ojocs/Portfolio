@@ -136,6 +136,7 @@ p3 {
 ul {
     color:black;
     text-align: center;
+    align-content: center;
     text-decoration: none;
 }
 
