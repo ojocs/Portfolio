@@ -24,3 +24,13 @@ function show (element, id) {
         element.style.color = 'blue';
     }
 }
+
+function detectMobile(){
+    if (/Mobile|Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+        // set mobile values here
+        return false;
+    } 
+    // else
+    alert("Not Mobile");
+    return true;
+}

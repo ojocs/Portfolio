@@ -118,12 +118,13 @@ p3 {
     animation: colorize 1s cubic-bezier(0, 0, .78, .36) 1;
     color:blue;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 27px;
+    font-size: 100%;
     padding: 2em 2em 2em, 3em;
     background-color: transparent;
     border: 0;
     align-content: center;
     font-weight: 600;
+    word-wrap: break-word;
 }
 
 ul {
