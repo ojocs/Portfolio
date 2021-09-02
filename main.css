@@ -23,6 +23,7 @@ body {
     text-align: justify;
     text-justify: auto;
     word-wrap: break-word;
+    word-break: keep-all;
 }
 
 h1, h2, h3, .showClass {
@@ -127,7 +128,9 @@ p3 {
     align-content: center;
     font-weight: 600;
     word-wrap: break-word;
-    word-break: normal;
+    word-break: keep-all;
+    max-width: auto;
+    max-height: 30%;
 }
 
 ul {
@@ -204,10 +207,14 @@ img {
 }
 
 .myWork {
+    /* max-width: 20%; */
+    /* max-height: 20%; */
     align-content: center;
-    text-align: justify;
+    text-align: center;
     text-justify: auto;
     display: none;
+    
+    word-break: keep-all;
 }
 
 /* hovers */
