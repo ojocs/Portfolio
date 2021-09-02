@@ -122,9 +122,11 @@ p3 {
     padding: 2em 2em 2em, 3em;
     background-color: transparent;
     border: 0;
+    width: fit-content;
     align-content: center;
     font-weight: 600;
     word-wrap: break-word;
+    word-break: normal;
 }
 
 ul {
