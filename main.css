@@ -97,6 +97,8 @@ h5 {
 }
 
 p, p2, p3 {
+    animation: colorize 1s cubic-bezier(0, 0, .78, .36) 1;
+    font-weight: bold;
     text-decoration: none;
     text-align: center;
     text-size-adjust: auto;
@@ -116,7 +118,7 @@ p2 {
 }
 
 p3 {
-    color: black;
+    color:indigo;
     text-align: center;
 }
 
@@ -223,7 +225,7 @@ img {
 
 /* hovers */
 
-h2 input:hover, h5 a:hover, p a:hover, p2 a:hover {
+h2 input:hover, h3 a:hover, h5 a:hover, p a:hover, p2 a:hover {
     text-decoration: underline;
     letter-spacing: 2px;
 }
